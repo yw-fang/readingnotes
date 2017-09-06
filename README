@@ -1,5 +1,15 @@
-This directory is used for taking notes, especially those
-for articles and books on the topic "machine learning".
+This directory is used for taking notes.
+
+The subjects are maily spread across the condensed matter physics, materials science, ab initio codes, data science, and machine learning.
+
+Here are some idctionary for the directories:
+
+1. cmphysics: condensed matter physics
+2. matsci: materials science
+3. abinitio: ab initio codes
+4. datasci: data science
+5. machinelearning: machine learning
+
 
 Y.-W.Fang
 Morning, 6th September, 2017
