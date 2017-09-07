@@ -1,0 +1,65 @@
+%%%%%%%%%%%%%%%%%%
+\begin{figure}[htbp]
+\centering
+%%You must note that in tikz package, a right-handed coordinate system is used
+\tdplotsetmaincoords{60}{120}
+
+% customized coordinate system
+\let\raarotold\raarot \let\rbarotold\rbarot
+\let\rabrotold\rabrot \let\rbbrotold\rbbrot
+\let\racrotold\racrot \let\rbcrotold\rbcrot
+
+\let\raarot\racrotold \let\rbarot\rbcrotold
+\let\rabrot\rabrotold \let\rbbrot\rbbrotold
+\let\racrot\raarotold \let\rbcrot\rbarotold
+
+\begin{tikzpicture}[tdplot_main_coords]
+
+  % axes
+  \draw[thick,->] (0,0,0) -- ( 5,0,0) node[anchor=south]{$y$};
+  \draw[thick,->] (0,0,0) -- ( 0,5,0) node[anchor=west]{$x$};
+  \draw[thick,->] (0,0,0) -- ( 0,0,5) node[anchor=north east]{$-z$};
+  \draw[thick]    (0,0,0) -- ( 0,-2,0);
+  \draw[thick,->] (0,0,0) -- ( 0,0,-5) node[anchor=south west]{$z$};
+
+  % vector 1
+  \pgfmathsetmacro{\ax}{5}
+  \pgfmathsetmacro{\ay}{5}
+  \pgfmathsetmacro{\az}{2}
+  \draw[very thick,->,red] (0,0,0) -- (\ax,\ay,\az) node[anchor=west]{};
+
+   % vector 2
+  \pgfmathsetmacro{\bx}{1}
+  \pgfmathsetmacro{\by}{0}
+  \pgfmathsetmacro{\bz}{-2}
+  \draw[very thick,->,blue] (2,0,3) node[anchor=north]{camera} -- (\bx,\by,\bz) node[anchor=north]{look\_at};
+
+   % vector 3 (projection)
+  \pgfmathsetmacro{\cx}{\ax*1.2}
+  \pgfmathsetmacro{\cy}{0}
+  \pgfmathsetmacro{\cz}{\az*1.2}
+  \draw[very thick,green] (0,0,0) -- (\cx,\cy,\cz);
+
+   % dashed lines
+%  \draw[dashed,gray] (\ax,\ay,\az) -- (\ax,\ay,0);
+  \draw[dashed,gray] (\ax,\ay,\az) -- (\ax,0,\az);
+  \draw[dashed,gray] (\ax,\ay,\az) -- (0,\ay,\az);
+%  \draw[dashed,gray] (\ax,0,0) -- (\ax,\ay,0) -- (0,\ay,0);
+  \draw[dashed,gray] (\ax,0,0) -- (\ax,0,\az) -- (0,0,\az);
+  \draw[dashed,gray] (0,0,\az) -- (0,\ay,\az) -- (0,\ay,0);
+
+  % arcs
+  \tdplotdefinepoints(0,0,0)(\ax,\ay,\az)(\bx,\by,\bz)
+  \tdplotdrawpolytopearc[<->]{2}{anchor=north west}{$\theta$}
+  \tdplotdefinepoints(0,0,0)(0,0,1)(\bx,\by,\bz)
+  \tdplotdrawpolytopearc[<->]{3}{anchor=north}{$\beta$}
+  \tdplotdefinepoints(0,0,0)(1,0,0)(\cx,\cy,\cz)
+  \tdplotdrawpolytopearc[<->]{4}{anchor=north}{$\phi$}
+
+\end{tikzpicture}
+
+\caption{\label{fig:wide} A left-handed coordinates system in \PV.}
+\label{fig: ZnO}
+\end{figure}\\
+This coordinate is plotted by a package called textbf{tikz} which supports Latex. Note that in textbf{tikz} package, a right-handed coordinate system is used, so when you are plotting, you have to take care of the conversion between the left-handed and right-handed coordinates.
+%%%%%%%%%%%%%%%%%

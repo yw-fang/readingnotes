@@ -9,6 +9,7 @@ Here are some idctionary for the directories:
 3. abinitio: ab initio codes
 4. datasci: data science
 5. machine-learning: machine learning
+6. render: 3D rendering tools
 
 
 Y.-W.Fang
@@ -19,4 +20,4 @@ Kyoto University
 Revision history:
 1. Created in late August, 2017
 2. Morning, 6th September, 2017: sort the dictory, and create a directory-abinitio
-3. Night, 7sth September, 2017: create matsci, update some notes in this directory
+3. Night, 7sth September, 2017: create matsci, update some notes in this directory; create render, and move my previous notes taken in 2015 on rendering to this directory.
