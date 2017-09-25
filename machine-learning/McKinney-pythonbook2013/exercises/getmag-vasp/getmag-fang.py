@@ -1,5 +1,6 @@
-import numpy as np
-
+#Purpose: export the magnetization part of OUTCAR
+#Author: Yue-Wen Fang
+#Date: 25th September, 2017
 path = './OUTCAR'
 path2 = 'mag-fang.out'
 
@@ -24,13 +25,14 @@ for line in f:
     linenumber = linenumber + 1
     if linenumber >= linenumber_mag:
         f2.write(line)
-#        with open('mag-fang.out', 'w') as handle:
-#            handle.writelines(line)
         print(line)
         if 'BZINTS' in line:
             break
     else:
         continue
+
+
+print("This script was written by Yue-Wen FANG")
 
 f2.close()
 f.close()
