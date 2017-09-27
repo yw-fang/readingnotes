@@ -1,6 +1,7 @@
 #Purpose: export the magnetization part of OUTCAR
 #Author: Yue-Wen Fang
 #Date: 25th September, 2017
+#pyinstaller -F *.py to generate the excutable binary file.
 path = './OUTCAR'
 path2 = 'mag-fang.out'
 
