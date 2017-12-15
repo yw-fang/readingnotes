@@ -1,0 +1,15 @@
+geometry nocenter noautosym
+  H 0.0 0.0 0.0
+  H 0.0 0.0 0.7
+end
+start
+basis
+  * library 3-21G
+end
+
+dft
+  xc xpbe96 cpbe96
+  mult 1
+end
+
+task dft gradient
