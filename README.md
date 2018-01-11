@@ -14,7 +14,9 @@ Here are some idctionary for the directories:
 6. render: 3D rendering tools
 
 
-Y.-W.Fang @Shanghai, Kyoto
+Y.-W.Fang 
+@Shanghai, China
+@Kyoto, Japan
 
 
 Revision history:
