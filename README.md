@@ -25,3 +25,5 @@ Revision history:
 3. Night, 7th September, 2017: create matsci, update some notes in this directory; create render, and move my previous notes taken in 2015 on rendering to this directory.
 4. Night, 8th September, 2017: add an noncollinear plus spin orbital coupling calculation example (Ni monolayer) in openmx
 5. Night, 17th December, 2017: create linux, this directory will maily discuss the shell
+6. Afternoon, 11th January, 2018: rename linux to linux-mac: collect some techniques on both linux and mac
+
