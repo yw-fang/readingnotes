@@ -8,7 +8,7 @@ Here are some idctionary for the directories:
 
 1. cmphysics: condensed matter physics
 2. matsci: materials science
-3. abinitio: ab initio codes
+3. abinitio: ab initio codes such as vasp, quantum espresso, phono3py
 4. datasci: data science
 5. machine-learning: machine learning
 6. render: 3D rendering tools
