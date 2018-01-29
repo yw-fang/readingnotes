@@ -2,9 +2,9 @@
 
 ### About this repo.
 
-The subjects are maily spread across the condensed matter physics, materials science, ab initio codes, data science, and machine learning.
+The repo. goes across the condensed matter physics, materials science, ab initio codes, data science, and machine learning.
 
-Here are some idctionary for the directories:
+Here is the dict. for the folders in this repo. 
 
 1. cmphysics: condensed matter physics
 2. matsci: materials science
