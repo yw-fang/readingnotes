@@ -15,8 +15,8 @@ Here are some idctionary for the directories:
 
 
 Y.-W.Fang 
-@Shanghai, China
-@Kyoto, Japan
+
+@Shanghai, China and @Kyoto, Japan
 
 
 Revision history:
