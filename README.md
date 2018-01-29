@@ -9,7 +9,7 @@ Here is the information of the folders in this repo.
 1. cmphysics: condensed matter physics
 2. matsci: materials science
 3. abinitio: ab initio codes such as vasp, quantum espresso, phono3py
-4. datasci: data science
+4. datasci: data science maily using python
 5. machine-learning: machine learning
 6. render: 3D rendering tools
 
