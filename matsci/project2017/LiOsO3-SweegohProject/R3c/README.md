@@ -6,7 +6,7 @@ they are all converted to GPa for plotting figures.
 
 ## The plottings in this directory:
 
-1) TDOS and PDOS
+1) TDOS and PDOS: inset plotting technique is used
 
-2) Bond angles and $\Gamma$-frequency
+2) Bond angles and $\Gamma$-frequency: secdonary axis technique is used
 
