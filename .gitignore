@@ -99,3 +99,38 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+#related to publications data
+matsci/project2017/double-perovskite/DFT-plotting/BYOO-24coplanar.txt
+matsci/project2017/double-perovskite/DFT-plotting/BYOO-Hubbard-fixexp-u0.txt
+matsci/project2017/double-perovskite/DFT-plotting/BYOO-Hubbard-fixexp-u1.txt
+matsci/project2017/double-perovskite/DFT-plotting/BYOO-Hubbard-fixexp-u2.txt
+matsci/project2017/double-perovskite/DFT-plotting/BYOO-Hubbard-fixexp-u3.txt
+matsci/project2017/double-perovskite/DFT-plotting/BYOO-Hubbard-fixexp-u4.txt
+matsci/project2017/double-perovskite/DFT-plotting/BYOO-Hubbard-fixexp-u5.txt
+matsci/project2017/double-perovskite/DFT-plotting/BYOO-SOC-fixexp-SOC10.txt
+matsci/project2017/double-perovskite/DFT-plotting/BYOO-SOC-fixexp-SOC12.txt
+matsci/project2017/double-perovskite/DFT-plotting/BYOO-SOC-fixexp-SOC14.txt
+matsci/project2017/double-perovskite/DFT-plotting/BYOO-SOC-fixexp-SOC16.txt
+matsci/project2017/double-perovskite/DFT-plotting/BYOO-SOC-fixexp-SOC18.txt
+matsci/project2017/double-perovskite/DFT-plotting/BYOO-SOC-fixexp-SOC20.txt
+matsci/project2017/double-perovskite/24CoplanarSpin-MAGMOM/24MAGMOM.txt
+matsci/project2017/double-perovskite/DFT-plotting/24coplanar.pdf
+matsci/project2017/double-perovskite/DFT-plotting/24coplanar_newlabel.pdf
+matsci/project2017/double-perovskite/DFT-plotting/BYOO-coplanar-rotation-degree-energy.txt
+matsci/project2017/double-perovskite/DFT-plotting/BYOO-coplanar-rotation.pdf
+matsci/project2017/double-perovskite/DFT-plotting/BYOO-pressure-fixexp-0.98Volume.txt
+matsci/project2017/double-perovskite/DFT-plotting/BYOO-pressure-fixexp-1.00Volume.txt
+matsci/project2017/double-perovskite/DFT-plotting/BYOO-pressure-fixexp-1.02Volume.txt
+matsci/project2017/double-perovskite/DFT-plotting/BYOO-pressure-fixexp-1.04Volume.txt
+matsci/project2017/double-perovskite/DFT-plotting/HubbardU-dependent.pdf
+matsci/project2017/double-perovskite/DFT-plotting/HubbardU-energydiff.pdf
+matsci/project2017/double-perovskite/DFT-plotting/SOC-dependent.pdf
+matsci/project2017/double-perovskite/DFT-plotting/SOC-modulation-energydiff.pdf
+matsci/project2017/double-perovskite/DFT-plotting/SOC-modulation-energydiff0-2.pdf
+matsci/project2017/double-perovskite/DFT-plotting/backup.ipynb
+matsci/project2017/double-perovskite/DFT-plotting/soc.py
+matsci/project2017/double-perovskite/DFT-plotting/volume-dependent.pdf
+matsci/project2017/double-perovskite/DFT-plotting/volume-energydiff.pdf
+matsci/project2017/double-perovskite/DFT-plotting/volume-energydiffU1.pdf
+matsci/project2017/double-perovskite/DFT-plotting/volume-energydiffU2.pdf
