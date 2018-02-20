@@ -1,0 +1,32 @@
+#This data is used for determing J1, J2, a1, a2, b1, b2, etc
+#The unit of the energies are eV/40-atom-Ba2YOsO6
+
+#Path-I
+allin
+-241.92005225
+co-all-in
+-241.92170717
+
+#Path-II
+twoin(cannot be stablized, enters into coplanar-twoin-twoout)
+-241.96540033
+co-two-in
+-241.96540198
+
+#Path-III
+onein
+-241.96580480
+co-one-in
+-241.95547247
+
+#Path-IV
+twoin-path4
+-241.93034981
+co-twoin-path4
+-241.93441614
+
+
+I-x
+-241.87472245
+I-z
+-241.89635353
