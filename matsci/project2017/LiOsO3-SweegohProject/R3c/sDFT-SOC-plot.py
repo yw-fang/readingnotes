@@ -112,6 +112,6 @@ plt.tight_layout()
 # plt.tight_layout()
 
 
-pp1 = PdfPages('./enthalpy-sDFT.pdf')
+pp1 = PdfPages('./enthalpy-sDFT-SOC.pdf')
 pp1.savefig(fig1)
 pp1.close()
