@@ -1,0 +1,45 @@
+Finished:
+mp-149, silicon, pk=197320
+mp-463, pk=67170
+mp-286, pk=70325
+mp-830, pk=72039
+mp-22862,pk=91699
+mp-1000, pk=85993
+mp-422  pk=187245
+mp-252 pk=187311 BeTe #folder in bridges
+mp-971, pk=85957
+mp-682, pk=86249
+mp-1087, pk=87250  Attention: the coordinates order are changed althought it still suits for the elements
+mp-2472, pk=87854
+mp-2605, pk=87992
+mp-7140, pk=88463
+mp-981, pk=88586
+mp-1394, pk=88747
+mp-1138, pk=89733
+mp-23193, pk=90390
+mp-1315  pk=190715 MgS
+mp-1265 pk=190837  MgO
+
+ongoing:
+mp-241 #h5 error in stern; updated phonopy and aiida-phonopy, and phonopy phono3py change to boston, vasp stays in stern
+verdi calculation logshow 84558
+mp-1029  pk=187575 BaF2 vasp@bridges
+mp-10760  pk=190776 MgSe vasp@bridges
+mp-406 pk=191365 CdTe vasp@bridges
+
+
+@brdiges
+mp-634 pk=136742
+mp-1439, pk=136856
+
+Need to be solved:
+mp-1070, pk=89334, error happes in optimization. Please check it carefully.
+
+
+strange case:
+mp-856, the coordinates in POSCAR in cluster is dfferent from the coordinates in the launch file
+mp-984 dynamically unstable, large imiginary frequency
+
+
+haven't calculated:
+mp-2542 4*4*2 has 128 atoms
