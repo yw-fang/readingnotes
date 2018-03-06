@@ -4,6 +4,7 @@
 #Purpose: This is a python crawler/spider to download#
 #the phonon database maintained by Togo-sensei       #
 #python 2.x should be used.
+#usage: python spider.py
 import urllib2
 import re
 import urllib
