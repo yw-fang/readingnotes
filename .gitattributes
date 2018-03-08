@@ -1,0 +1,2 @@
+thermaldata.json  filter=crypt diff=crypt
+finished_jobs.txt filter=crypt diff=crypt
