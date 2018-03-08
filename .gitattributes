@@ -3,3 +3,6 @@ matsci/project2018/thermal-togo-abel/thermaldata.json  filter=crypt diff=crypt
 matsci/project2018/thermal-togo-abel/finished-jobs.txt filter=crypt diff=crypt
 
 matsci/project2017/LiOsO3-SweegohProject/R3c/toten-enthalpy-PV/*.dat filter=crypt diff=crypt
+
+matsci/project2018/thermal-togo-abel/data.json filter=crypt diff=crypt
+
