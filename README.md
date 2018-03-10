@@ -26,4 +26,5 @@ Revision history:
 4. Night, 8th September, 2017: add an noncollinear plus spin orbital coupling calculation example (Ni monolayer) in openmx
 5. Night, 17th December, 2017: create linux, this directory will maily discuss the shell
 6. Afternoon, 11th January, 2018: rename linux to linux-mac: collect some techniques on both linux and mac
+7. Night, 11th March, 2018: create quantum-mechaniscs used for taking notes on lectures or books.
 
