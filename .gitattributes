@@ -5,3 +5,4 @@ matsci/project2018/thermal-togo-abel/data.json filter=crypt diff=crypt
 matsci/project2018/thermal-togo-abel/Thermal-conductivity.ipynb filter=crypt diff=crypt
 matsci/project2018/thermal-togo-abel/stabilities/*.pdf filter=crypt diff=crypt
 matsci/project2018/thermal-togo-abel/lifetime/*.pdf  filter=crypt diff=crypt
+matsci/project2017/LiOsO3-SweegohProject/R3c/*.ipynb filter=crypt diff=crypt
