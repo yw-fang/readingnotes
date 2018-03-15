@@ -7,3 +7,5 @@ matsci/project2018/thermal-togo-abel/stabilities/*.pdf filter=crypt diff=crypt
 matsci/project2018/thermal-togo-abel/lifetime/*.pdf  filter=crypt diff=crypt
 matsci/project2017/LiOsO3-SweegohProject/R3c/*.ipynb filter=crypt diff=crypt
 matsci/project2017/LiOsO3-SweegohProject/R3c/exp-rawdata-CUHK/*.csv
+matsci/project2017/pressure-doping-ferroelectrics/BTO-disp-frequency/*.csv
+matsci/project2017/pressure-doping-ferroelectrics/BTO-disp-frequency/*.ipynb
