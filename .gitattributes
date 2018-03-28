@@ -13,4 +13,7 @@ matsci/project2018/thermal-togo-abel/phonon-dos-band-thermal-project/*.pdf
 matsci/project2017/LiOsO3-SweegohProject/R3c/calypso-10atom-refined/*.dat
 matsci/project2017/LiOsO3-SweegohProject/R3c/toten-enthalpy-PV/*.dat
 matsci/project2017/pressure-doping-ferroelectrics/Na-LiOsO3/*.dat
+matsci/project2017/pressure-doping-ferroelectrics/Na-LiOsO3/*.csv
 matsci/project2017/pressure-doping-ferroelectrics/Na-LiOsO3/*/*.dat
+matsci/project2017/pressure-doping-ferroelectrics/Na-LiOsO3/*/*.csv
+matsci/project2017/pressure-doping-ferroelectrics/BFO/*.csv
