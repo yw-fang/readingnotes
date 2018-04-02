@@ -19,7 +19,8 @@ matsci/project2017/pressure-doping-ferroelectrics-Ts/Na-LiOsO3/*.dat filter=cryp
 matsci/project2017/pressure-doping-ferroelectrics-Ts/Na-LiOsO3/*.csv filter=crypt diff=crypt
 matsci/project2017/pressure-doping-ferroelectrics-Ts/Na-LiOsO3/*/*.dat filter=crypt diff=crypt
 matsci/project2017/pressure-doping-ferroelectrics-Ts/Na-LiOsO3/*/*.csv filter=crypt diff=crypt
-matsci/project2017/pressure-doping-ferroelectrics-Ts/BFO/*.csv
-matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/sDFT-SOC-U-verification/*.dat
-matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/sDFT-SOC-U-verification/*.txt
-matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/sDFT-SOC-U-verification/*.csv
+matsci/project2017/pressure-doping-ferroelectrics-Ts/BFO/*.csv filter=crypt diff=crypt
+matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/sDFT-SOC-U-verification/*.dat filter=crypt diff=crypt
+matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/sDFT-SOC-U-verification/*.txt filter=crypt diff=crypt
+matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/sDFT-SOC-U-verification/*.csv filter=crypt diff=crypt
+matsci/project2017/double-perovskite/structure-magnetic-fig/*.pptx filter=crypt diff=crypt
