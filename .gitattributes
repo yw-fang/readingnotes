@@ -1,21 +1,24 @@
 matsci/project2018/thermal-togo-abel/2018Feb/thermaldata.json  filter=crypt diff=crypt
 matsci/project2018/thermal-togo-abel/2018Feb/finished-jobs.txt filter=crypt diff=crypt
+matsci/project2018/thermal-togo-abel/2018April/*.txt filter=crypt diff=crypt
+matsci/project2018/thermal-togo-abel/2018April/*.dat filter=crypt diff=crypt
+matsci/project2018/thermal-togo-abel/2018April/*.csv filter=crypt diff=crypt
 matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/toten-enthalpy-PV/*.dat filter=crypt diff=crypt
 matsci/project2018/thermal-togo-abel/data.json filter=crypt diff=crypt
 matsci/project2018/thermal-togo-abel/Thermal-conductivity.ipynb filter=crypt diff=crypt
 matsci/project2018/thermal-togo-abel/stabilities/*.pdf filter=crypt diff=crypt
 matsci/project2018/thermal-togo-abel/lifetime/*.pdf  filter=crypt diff=crypt
 matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/*.ipynb filter=crypt diff=crypt
-matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/exp-rawdata-CUHK/*.csv
-matsci/project2017/pressure-doping-ferroelectrics-Ts/BTO-disp-frequency/*.csv
-matsci/project2017/pressure-doping-ferroelectrics-Ts/BTO-disp-frequency/*.ipynb
-matsci/project2018/thermal-togo-abel/phonon-dos-band-thermal-project/*.pdf
-matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/calypso-10atom-refined/*.dat
-matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/toten-enthalpy-PV/*.dat
-matsci/project2017/pressure-doping-ferroelectrics-Ts/Na-LiOsO3/*.dat
-matsci/project2017/pressure-doping-ferroelectrics-Ts/Na-LiOsO3/*.csv
-matsci/project2017/pressure-doping-ferroelectrics-Ts/Na-LiOsO3/*/*.dat
-matsci/project2017/pressure-doping-ferroelectrics-Ts/Na-LiOsO3/*/*.csv
+matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/exp-rawdata-CUHK/*.csv filter=crypt diff=crypt
+matsci/project2017/pressure-doping-ferroelectrics-Ts/BTO-disp-frequency/*.csv filter=crypt diff=crypt
+matsci/project2017/pressure-doping-ferroelectrics-Ts/BTO-disp-frequency/*.ipynb filter=crypt diff=crypt
+matsci/project2018/thermal-togo-abel/phonon-dos-band-thermal-project/*.pdf filter=crypt diff=crypt
+matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/calypso-10atom-refined/*.dat filter=crypt diff=crypt
+matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/toten-enthalpy-PV/*.dat filter=crypt diff=crypt
+matsci/project2017/pressure-doping-ferroelectrics-Ts/Na-LiOsO3/*.dat filter=crypt diff=crypt
+matsci/project2017/pressure-doping-ferroelectrics-Ts/Na-LiOsO3/*.csv filter=crypt diff=crypt
+matsci/project2017/pressure-doping-ferroelectrics-Ts/Na-LiOsO3/*/*.dat filter=crypt diff=crypt
+matsci/project2017/pressure-doping-ferroelectrics-Ts/Na-LiOsO3/*/*.csv filter=crypt diff=crypt
 matsci/project2017/pressure-doping-ferroelectrics-Ts/BFO/*.csv
 matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/sDFT-SOC-U-verification/*.dat
 matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/sDFT-SOC-U-verification/*.txt
