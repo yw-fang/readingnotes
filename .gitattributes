@@ -1,5 +1,5 @@
-matsci/project2018/thermal-togo-abel/thermaldata.json  filter=crypt diff=crypt
-matsci/project2018/thermal-togo-abel/finished-jobs.txt filter=crypt diff=crypt
+matsci/project2018/thermal-togo-abel/2018Feb/thermaldata.json  filter=crypt diff=crypt
+matsci/project2018/thermal-togo-abel/2018Feb/finished-jobs.txt filter=crypt diff=crypt
 matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/toten-enthalpy-PV/*.dat filter=crypt diff=crypt
 matsci/project2018/thermal-togo-abel/data.json filter=crypt diff=crypt
 matsci/project2018/thermal-togo-abel/Thermal-conductivity.ipynb filter=crypt diff=crypt
