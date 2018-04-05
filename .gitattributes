@@ -24,3 +24,4 @@ matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/sDFT-SOC-U-verification/*.dat fi
 matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/sDFT-SOC-U-verification/*.txt filter=crypt diff=crypt
 matsci/project2017/SweeGoh-HHChen-LiOsO3-Ts/R3c/sDFT-SOC-U-verification/*.csv filter=crypt diff=crypt
 matsci/project2017/double-perovskite/structure-magnetic-fig/*.pptx filter=crypt diff=crypt
+matsci/project2018/thermal-togo-abel/2018April/*.ipynb filter=crypt diff=crypt
