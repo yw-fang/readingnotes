@@ -43,6 +43,10 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/readingnotes.iml
+.idea/workspace.xml
 *.cover
 .hypothesis/
 
@@ -163,3 +167,9 @@ matsci/project2017/LiOsO3-SweegohProject/R3c/sDFT-SOC-U-verification/R3c-type4-U
 matsci/project2017/LiOsO3-SweegohProject/R3c/sDFT-SOC-U-verification/scpfromvirtualbox
 matsci/project2017/LiOsO3-SweegohProject/R3c/sDFT-SOC-U-verification/type4-U-SOC-test.txt
 matsci/project2017/LiOsO3-SweegohProject/R3c/sDFT-SOC-U-verification/type4-U-test.txt
+matsci/project2017/double-perovskite/DFT-plotting/*csv
+matsci/project2017/LiOsO3-SweegohProject/R3c/0
+matsci/project2017/LiOsO3-SweegohProject/R3c/20
+matsci/project2017/LiOsO3-SweegohProject/R3c/40
+matsci/project2017/LiOsO3-SweegohProject/R3c/60
+matsci/project2017/BaPd2As2-Mahmoud/Tc-fig-for-referee.pdf
