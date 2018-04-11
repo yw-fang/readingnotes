@@ -1,0 +1,35 @@
+#This data is used for determing J1, J2, a1, a2, b1, b2, etc
+#The unit of the energies are eV/40-atom-Ba2YOsO6
+#type 4 Hubbard U, U=2 eV, soc included.
+
+#Path-I
+allin
+-233.99335898
+co-all-in
+-234.00642700
+
+#Path-II
+twoin
+-234.05380106
+co-two-in
+-234.05379949
+
+#Path-III
+onein
+-234.05427530
+co-one-in
+-234.05379949
+
+#Path-IV
+twoin-path4
+-234.01626033
+co-twoin-path4
+-234.02868392
+
+I-x
+-233.97661282
+I-z
+-234.02816294
+
+FM
+-233.84197861
