@@ -1,0 +1,14 @@
+#This data is used for determing J1, J2, a1, a2, b1, b2, etc
+#The unit of the energies are eV/40-atom-Ba2YOsO6
+#SOC is not included in the calculations
+#exprimental structure is used
+#Hubbard U = 1 eV (type 4 U)
+
+FM
+-231.81600674
+AFM type-I
+-232.14261741
+all-in-all-out
+-232.22602681
+co-all-in
+-232.21957314
