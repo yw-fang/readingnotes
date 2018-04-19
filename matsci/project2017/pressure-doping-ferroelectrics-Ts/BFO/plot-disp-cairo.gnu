@@ -172,5 +172,5 @@ set fit brief errorvariables nocovariancevariables errorscaling prescale nowrap 
 #GNUTERM = "wxt"
 x = 0.0
 ## Last datafile plotted: "T-BFO222-1Ca-v1.csv"
-plot 'T-BFO222-pure-v1.csv'  u ($1/10):2 w lp lw 2 ps 2 lt 7 lc 2 t '40-atom T-BiFeO3', 'T-BFO222-1Ca-v1.csv' u ($1/10):2 w lp lw 2 ps 2 lt 7 lc 1 t 'BFO222-1Ca'
+plot 'T-BFO222-pure-v1.csv'  u ($1/10):2 w lp lw 2 ps 2 lt 7 lc 1 t '40-atom T-BiFeO3', 'T-BFO-sqrt2-sqrt2-2-1Ca.csv' u ($1/10):2 w lp lw 2 ps 2 lt 7 lc 2 t 'BFO-20atoms-1Ca', 'T-BFO222-1Ca-v1.csv' u ($1/10):2 w lp lw 2 ps 2 lt 7 lc 3 t 'BFO-40atoms-1Ca'
 #    EOF
