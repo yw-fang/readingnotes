@@ -1,0 +1,7 @@
+Errata
+
+-  Errata Type : Code | Page No. 21
+
+   Originally : "b = tuple(process(x) for x in a ) "
+
+   Should actually be : "b = (process(x) for x in a)"  (Exclude the word "tuple" from the code to get generator as output)
