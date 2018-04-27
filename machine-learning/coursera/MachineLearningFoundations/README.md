@@ -21,7 +21,7 @@ Why Can Machines Learn? 為什麼機器可以學習?
 
 ## What should you have?
 
-機率統計、線性代數、微分之基本知識
+機率統計、線性代數、微分之基本知識. A summary can be found [here]{./homework/homework0.pdf}.
 
 ## References
 
