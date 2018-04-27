@@ -1,0 +1,46 @@
+Errata
+- 5 submitted: last submission 25 Sep 2017 
+
+   Errata Type : Code | Page No. 21
+
+   Originally : "b = tuple(process(x) for x in a ) "
+
+   Should actually be : "b = (process(x) for x in a)"  (Exclude the word "tuple" from the code to get generator as output)
+
+Errata Type: Typo | Chapter 1 | Page 40
+
+This "Read the input using numpyâ€™s genfromtext to create a nummpy array." 
+
+Should be this "Read the input using numpy's genfromtext to create a nummpy array."
+
+Errata Type: Typo Page Number: 88, 89, 91, 96 & 97.
+
+It is:
+
+Presedential
+
+Should be:
+
+Presidential
+
+Errata Type: Code: page no 8
+
+It is : 
+# 8.in and not in
+if 1 in a:
+print "Element 1 is available in tuple a"
+else:
+print "Element 1 is available in tuple a"
+
+Should be :
+
+# 8.in and not in
+if 1 in a:
+print "Element 1 is available in tuple a"
+else:
+print "Element 1 is not available in tuple a"
+The print statement in else part should be "Element 1 is not available in tuple a"
+
+Errata Type: Code: page no 3
+It is: # 4. print the outputprint (word_dict) 
+It should be: # 4. print the output print (word_dict) 
