@@ -18,3 +18,5 @@ knowledge on markdown with us.
 
 - [change font in latex](https://tex.stackexchange.com/questions/58098/what-are-all-the-font-styles-i-can-use-in-math-mode?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa): 尽管这是latex的，但是markdown和latex有一些共同的语法规则。例如数学体符号
 $\mathcal{H}$.
+
+-[Markdown cheatsheet]{https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet}
