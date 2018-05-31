@@ -43,10 +43,7 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/readingnotes.iml
-.idea/workspace.xml
+.idea
 *.cover
 .hypothesis/
 
