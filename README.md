@@ -10,7 +10,6 @@ Here is the information of the folders in this repo.
 - abinitio: ab initio codes such as vasp, quantum espresso, phono3py
 - datasci: data science maily using python
 - machine-learning: machine learning
-- render: 3D rendering tools
 - writing: scientific writing
 
 
