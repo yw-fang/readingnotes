@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+__author__ = 'Yue-Wen FANG'
+__maintainer__ = "Yue-Wen FANG"
+__email__ = 'fyuewen@gmail.com'
+__license__ = 'Apache License 2.0'
+__creation_date__= 'Dec. 25, 2018'
+
 """
 This example shows that documentation for the functions
 you defined is important for others who read your codes.
