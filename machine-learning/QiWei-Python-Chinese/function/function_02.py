@@ -5,8 +5,8 @@
 This example shows the functionality
 of positional arguments and keyword ONLY arguments.
 
-The positional arguments returns tuple,
-the keyword ONLY arguments returns dict.
+The positional arguments correspond to tuple,
+the keyword ONLY arguments correspond to dict.
 """
 
 def add_function_01(x, *args):  # you can use any other proper names instead of using args
