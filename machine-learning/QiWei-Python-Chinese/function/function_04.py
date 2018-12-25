@@ -77,13 +77,3 @@ def sum_product_zip(xlist, ylist):
 
 
 print('sum(product) using zip', sum_product_zip(xlist, ylist))
-
-
-# method 6: use reduce, lambda, zip
-def sum_product_reducezip(xlist, ylist):
-    x_y_list = zip(xlist, ylist)
-    sum_xy = reduce(lambda sum, (x,y): sum+x*y, x_y_list, 0)
-    return(sum_xy)
-
-
-print('sum(product) using zip and reduce', sum_product_reducezip(xlist, ylist))

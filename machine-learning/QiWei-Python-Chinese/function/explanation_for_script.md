@@ -1,5 +1,7 @@
 List of the scripts:
 
+Note that theses python scripts use python 3.
+
 - function_01.py: the importance of writing documentation for new functions
 
 - function_02.py: a simple comparison between the positional arguments and keyword

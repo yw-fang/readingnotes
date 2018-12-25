@@ -8,9 +8,11 @@ __license__ = 'Apache License 2.0'
 __creation_date__= 'Dec. 25, 2018'
 
 """
-filter function
+filter function in python  3.
+Note that the filter function in python 2 and python 3 are
+very different, here I only use python 3.
 """
 
 xlist = [i for i in range(10)]
-print(filter(lambda x: x<=2, xlist))
-print(filter(x<=2, xlist))
+filtered = list(filter(lambda x: x<=2, xlist))
+print(filtered)
