@@ -6,3 +6,5 @@ List of the scripts:
 only arguments
 
 - function_03.py: gently pass arguments to functions
+
+- function_04.py: lambda, map, reduce, zip builtin functions
