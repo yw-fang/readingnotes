@@ -26,7 +26,7 @@ class CC:
 c = CC()
 """
 
-__metaclass__ = type
+# __metaclass__ = type  # this is not necessary for python 3
 
 # define a class Person
 # In general Capitalize the first letter of a each word
