@@ -39,8 +39,10 @@ class Person:
 
     def color(self, color):
         print("%s is %s" % (self.name, color))
+        return(color)
 
 # FANG is an instantce, it has attribution and method
 # we pass 'FANG' to the name in the Person class
 person = Person('FANG')
 print(person.name)
+print(person.getName())
