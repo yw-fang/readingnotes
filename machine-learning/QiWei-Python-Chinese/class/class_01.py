@@ -31,7 +31,7 @@ c = CC()
 # define a class Person
 # In general Capitalize the first letter of a each word
 class Person:
-    def __init__(self, name):  # __init__ is necessary for call to initialize
+    def __init__(self, name):  # __init__ is not always necessary in CLASS
         self.name = name
 
     def getName(self):
