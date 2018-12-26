@@ -4,10 +4,10 @@ Note that theses python scripts use python 3.
 
 - class_01.py: create a simple class and understand the structure in a class
 
-- class_02.py: 
+- class_02.py: arguments in CLASS
 
-- class_03.py: 
+- class_03.py: namespaces in Python
 
-- class_04.py: 
+- class_04.py: single inheritance in CLASS
 
-- class_05.py: 
+- class_05.py: multiple inheritance in CLASS
