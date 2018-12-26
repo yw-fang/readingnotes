@@ -20,15 +20,14 @@ class Person:
 
 class Girl(Person):
     def __init__(self):
-        super(Girl, self).__init__()
+        # super(Girl, self).__init__()
+        super().__init__()
         # the __init__ method of parent class Person will be inherited
-        # in super function, the first one is the name of class, here is Girl; the second is
-        # self, the third is method, here, it's __init__
         self.eyecolor = 'blue'
 
     def about(self, name):
         print("{} is a hot girl, she is about {}, and her eyecolor is {}".format(name, self.height, self.eyecolor))
-        super(Girl, self).about(name)  # the about method of parent class Person will be inherited
+        super().about(name)  # the about method of parent class Person will be inherited
 
 if __name__ == '__main__':
     cang = Girl()
