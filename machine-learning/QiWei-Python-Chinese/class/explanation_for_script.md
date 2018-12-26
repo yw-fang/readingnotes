@@ -17,3 +17,7 @@ Note that theses python scripts use python 3.
 - class_07.py: introduce a problem without using super function
 
 - class_08.py: solve problem in class_07.py by using super function
+
+- class_09.py: simple introductory example of staticmethod and classmethod
+
+- class_10.py: better understand the differences between staticmethod and classmethod
