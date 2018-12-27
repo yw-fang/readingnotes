@@ -31,7 +31,7 @@ c = CC()
 # define a class Person
 # In general Capitalize the first letter of a each word
 class Person:
-    def __init__(self, name):  # __init__ is not always necessary in CLASS
+    def __init__(self, name):  # initialize
         self.name = name
 
     def getName(self):
@@ -46,3 +46,4 @@ class Person:
 person = Person('FANG')
 print(person.name)
 print(person.getName())
+print(person.color('white'))
