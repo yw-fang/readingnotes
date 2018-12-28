@@ -5,53 +5,42 @@ __author__ = 'Yue-Wen FANG'
 __maintainer__ = "Yue-Wen FANG"
 __email__ = 'fyuewen@gmail.com'
 __license__ = 'Apache License 2.0'
-__creation_date__= 'Dec. 26, 2018'
+__creation_date__= 'Dec. 28, 2018'
 
 """
-Here, I rewrote the example dog.py in the book
-of Python Crash Couse.
-This example is not exactly same to the one
-in that book.
+Questions from python crash couse chapter 09
+9-1. Restaurant: Make a class called Restaurant . The __init__() method for Restaurant should 
+store two attributes: a restaurant_name and a cuisine_type . Make a method called describe_restaurant() that prints 
+these two pieces of information, and a method called open_restaurant() that prints a message indi- cating that 
+the restaurant is open .
+Make an instance called restaurant from your class . Print the two attri- butes individually, and then call 
+both methods .
+9-2. Three Restaurants: Start with your class from Exercise 9-1 . Create three different instances from the 
+class, and call describe_restaurant() for each instance .
+
 """
 
-class Dog():  # (1)
-    """Dog class"""  # (2)
+class Restaurant():
+    """Restaurant class"""
+    def __init__(self, restaurant_name, cuisine_type):
+        self.restaurant_name = restaurant_name
+        self.cuisine_type = cuisine_type
 
-    def __init__(self, name, age):  # (3)
-        """
-        initialize the name and age
-        :param name: the name of dog
-        :param age: the age of the dog
-        """
-        self.name = name  # (4)
-        self.age = age
+    def describe_restaurant(self):
+        print(self.restaurant_name)
+        print(self.cuisine_type)
 
-    def sit(self):  # (5)
-        """
-        :return: dog sits
-        """
-        print(self.name.title() + ' is sitting now')  # title() used for capitalizing the first letter
+    def open_restaurant(self):
+        print('The restaurant is open')
 
-    def roll_over(self):
-        """
-        :return: dog rolls over
-        """
-        print(self.name.title() + ' is rolling over now!')
+my_restaurant = Restaurant(restaurant_name='Apple', cuisine_type='Western')
+print('The name and the cuisine_type of my restaurant are %s and %s' % (my_restaurant.restaurant_name,
+                                                                        my_restaurant.cuisine_type))
+my_restaurant.describe_restaurant()
 
-if __name__ == "__main__":
-    """
-    In the first instance, I pass the string '2' to age.
-    In the second instance, I pass the integer 2 to age.
-    This reflects the Polymorphism of Python.
-    
-    In the two instances, two dogs were created.
-    """
-    x = Dog('Henry', '2')
-    print('The name of the dog is %s' % (x.name.title()) + '.')
-    print('The age of the dog is %s' % x.age + '.')
-    x.roll_over()
+Yuki_restaurant = Restaurant(restaurant_name='Tentora', cuisine_type='Japanese')
+Yuki_restaurant.describe_restaurant()
 
-    y = Dog('Will', 2)
-    print('The name of the dog is %s' % (y.name.title()) + '.')
-    print('The age of the dog is %s' % (str(y.age)) + '.' )  # convert the integer to string
-    y.roll_over()
+
+Lili_restaurant = Restaurant(restaurant_name='Sichuan', cuisine_type='Chinese')
+Lili_restaurant.describe_restaurant()
