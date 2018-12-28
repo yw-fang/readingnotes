@@ -33,6 +33,9 @@ c = CC()
 class Person:
     def __init__(self, name):  # initialize
         self.name = name
+        # 此处self.name中的name和初始化函数的参数name没有任何关系
+        # 我们完全可写成 self.xyz,　不过习惯上，我们使用 self.name
+        # self acts as a instance
 
     def getName(self):
         return(self.name)

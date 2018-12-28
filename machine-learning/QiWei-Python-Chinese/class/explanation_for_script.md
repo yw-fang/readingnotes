@@ -21,3 +21,22 @@ Note that theses python scripts use python 3.
 - class_09.py: simple introductory example of staticmethod and classmethod
 
 - class_10.py: better understand the differences between staticmethod and classmethod
+
+Additional note in Chinese:
+
+许多编程语言中都有类的概念。类这一概念的出现，为面向对象编程中的三个特性（封装性、
+继承性、多态性）提供了实现手段。
+
+类使对某一群具有同样属性和方法的对象的抽象。
+
+在 Python 中，习惯性地，我们命名类的时候，采用"驼峰式"命名规则，即单词的首字母为大写，例如
+class PhonopyElement. 
+
+在 Python 的类中，函数（方法）(注意这里排除了 staticmethod 和 classmethod) 的参数跟
+一般 Python 函数的参数样式有区别，即每个函数包含一个 self
+参数，并且使默认的第一个参数。它对应着具体的实例。
+
+在 Python 类中，都会有一个 \__init\__ 初始化函数，有的书称之为构造函数，但其实 Python 中只有
+唯一一个构造函数 \__new\__。因此，我们最好都称呼 \__init\__ 初始化函数，
+
+Python 中，类与实例都是对象，因此就有了"类属性"和"实例属性"。
