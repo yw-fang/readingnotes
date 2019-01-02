@@ -8,8 +8,8 @@ __license__ = 'Apache License 2.0'
 __creation_date__= 'Dec. 28, 2018'
 
 """
-Questions from python crash couse chapter 09
-9-1. Restaurant: Make a class called Restaurant . The __init__() method for Restaurant should 
+Questions from chapter 09 of python crash course
+9-1. Restaurant: Create a class called Restaurant . The __init__() method for Restaurant should 
 store two attributes: a restaurant_name and a cuisine_type . Make a method called describe_restaurant() that prints 
 these two pieces of information, and a method called open_restaurant() that prints a message indi- cating that 
 the restaurant is open .
