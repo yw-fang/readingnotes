@@ -11,7 +11,7 @@ __creation_date__= 'Dec. 26, 2018'
 super function is introduced to remove the error in class_07.py
 """
 
-class Person:
+class Person():
     def __init__(self):
         self.height = 160
 
