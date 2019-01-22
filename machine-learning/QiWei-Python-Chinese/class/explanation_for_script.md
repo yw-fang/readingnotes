@@ -22,6 +22,10 @@ Note that theses python scripts use python 3.
 
 - class_10.py: better understand the differences between staticmethod and classmethod
 
+- class_11.py: better understand the differences between staticmethod and classmethod
+
+- class_12.py: private attribute
+
 Additional note in Chinese:
 
 许多编程语言中都有类的概念。类这一概念的出现，为面向对象编程中的三个特性（封装性、
