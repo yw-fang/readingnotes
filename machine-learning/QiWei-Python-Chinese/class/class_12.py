@@ -7,7 +7,6 @@ __email__ = 'fyuewen@gmail.com'
 __license__ = 'Apache License 2.0'
 __creation_date__= 'Jan. 21, 2019'
 
-__metaclass__ = type
 
 class ProtectMe:
     def __init__(self):
