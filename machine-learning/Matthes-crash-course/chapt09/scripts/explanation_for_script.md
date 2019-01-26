@@ -9,3 +9,5 @@ Note that theses python scripts use python 3.
 - user_03.py: a quiz code for the user
 
 - car_04.py: 9.2.1 care class
+
+- car_05.py: based on car_04.py, add new attributes
