@@ -16,10 +16,3 @@ Here is the information of the folders in this repo.
 Y.-W.Fang 
 
 @Shanghai, China and @Kyoto, Japan
-
-
-Important revision history:
-
-- Created in late August, 2017
-- Remove matsci in April, 2018
-- Created a writing folder, 2018
