@@ -24,4 +24,35 @@
 - [Projected band with Pymatgen: pymatgen.electronic_structure.plotter](http://blog.wangruixing.cn/2019/05/19/pymatgen-band/)
 
   - [an example](https://kwaters4.github.io/journal/Projected_DOS.html)
+- Sumo (sumo code, git grep 'BandStructureSymmLine')
 
+# 4 Wannier-VASP and wannier90 calculations
+
+- [Restarting the calculation with increased dis_num_iter](https://lists.quantum-espresso.org/pipermail/wannier/2014-December/000929.html): at present,
+it is impossible to restart the disentanglement with increased dis_numb_inter;
+but it's allowed to restart the wannierisation with increased num_iter, note
+that the XX.chk file must be present so that the calculations can restart from
+the checkpoint.
+
+- [Restart the calculation of Fermi surface]: if we have finished the
+  disentanglement and wannierization, we can use 'restart=plot' to calculate
+the Fermi surface. Specifically, we need add these lines to the XX.win file:
+
+  restart=plot
+
+  fermi_energy = E_F-from-DFT
+
+  fermi_surface_plot = true
+
+  fermi_surface_num_points = 50
+  
+- [Wannier calculation convergence](https://lists.quantum-espresso.org/pipermail/wannier/2016-May/001171.html)
+
+```
+There are 4 criterion:
+1.In the  output file you should see this:<<< Wannierisation
+convergence criteria satisfied >>>
+2.WF spread (for final state) should be < 5 angstrom
+3. Maximum Im/Re Ratio should be < 10^-4
+4. And finally comparing the band structures by wannier90 with DFT
+```
