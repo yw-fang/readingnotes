@@ -14,5 +14,14 @@
 # ２. 有效质量，能带图中k点坐标的单位
 
 - [小木虫：于电子有效质量计算方法的问题](http://muchong.com/t-10575534-1)
+
 - [小木虫：能带结果的横坐标单位](http://muchong.com/html/201708/7390503.html)
+
 - [小木虫：一种计算电子和空穴有效质量的方法](http://muchong.com/t-7149817-1-amp;fpage-1)
+
+# 3. Fat band or orbital projected band structure analysis 
+
+- [Projected band with Pymatgen: pymatgen.electronic_structure.plotter](http://blog.wangruixing.cn/2019/05/19/pymatgen-band/)
+
+  - [an example](https://kwaters4.github.io/journal/Projected_DOS.html)
+
