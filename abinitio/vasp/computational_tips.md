@@ -56,3 +56,11 @@ convergence criteria satisfied >>>
 3. Maximum Im/Re Ratio should be < 10^-4
 4. And finally comparing the band structures by wannier90 with DFT
 ```
+
+# 5 PBEsol-D2 is currently not support at least in vasp 5.4.4.
+
+In my recent study, I found that for PBEsol (GGA=PS in INCAR and LEXCH=PS in POTCAR), DFT-D2 ( IVDW = 10 in INCAR) doesn't work after finisihing an ionic step with the errors
+
+" vdw_forces_G: ERROR unsupported xc-functional, LEXCH=          14
+ please define parameter VDW_S6 for this functional"
+
