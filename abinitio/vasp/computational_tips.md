@@ -64,3 +64,8 @@ In my recent study, I found that for PBEsol (GGA=PS in INCAR and LEXCH=PS in POT
 " vdw_forces_G: ERROR unsupported xc-functional, LEXCH=          14
  please define parameter VDW_S6 for this functional"
 
+# 6 Linear Response U by Dr. Eric B. Isaacs 
+
+http://grandcentral.apam.columbia.edu:5555/tutorials/dft_procedures/linear_response_u/index.html
+
+Dr. Isaacs is now a postdoc in the group of Wolverton (https://sites.northwestern.edu/ericisaacs/)
