@@ -31,3 +31,6 @@ More details for the interested: the problem was further traced down to our sett
 
 Newer VASP modules built with e.g. `intel-2018b` use VASP default `NB=16`, while the non-vanilla modules built with `intel-2018a` has `NB=32` set.
 
+- REAL_OPTLAY: internal error
+
+  This error aries if the ENMAX values of the elements in the POTCAR differ very much, and can be solved by altering the POTCAR files. See ref: https://www.vasp.at/forum/viewtopic.php?f=4&t=5354
