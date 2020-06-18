@@ -15,4 +15,6 @@ Here is the information of the folders in this repo.
 
 Y.-W.Fang 
 
-@Shanghai, China and @Kyoto, Japan
+@Shanghai, China 2017
+@Kyoto, Japan 2017-2020
+@Yokohama, Japan 2020-now
