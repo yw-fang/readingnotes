@@ -69,3 +69,8 @@ In my recent study, I found that for PBEsol (GGA=PS in INCAR and LEXCH=PS in POT
 http://grandcentral.apam.columbia.edu:5555/tutorials/dft_procedures/linear_response_u/index.html
 
 Dr. Isaacs is now a postdoc in the group of Wolverton (https://sites.northwestern.edu/ericisaacs/)
+
+
+# References
+
+- [accumulated VASP wisdom](https://sites.tufts.edu/andrewrosen/density-functional-theory/vasp/)  or see the VASP_tips_Andrew.S.Rosen.pdf in this directory
